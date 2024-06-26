@@ -1,5 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+require("dotenv").config({ path: ".env" });
 
 // Using a hardcoded solution to avoid GitHub actions issues
 const DEPLOYER_PRIVATE_KEY =
