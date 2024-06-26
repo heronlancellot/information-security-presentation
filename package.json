@@ -2,7 +2,8 @@
   "name": "information-security-presentation",
   "scripts": {
     "test": "npx hardhat test",
-    "deploy": "npx hardhat run scripts/DeployMockERC20.ts --network sepolia"
+    "deploy-sepolia": "npx hardhat run scripts/DeployMockERC20.ts --network sepolia",
+    "deploy-neoX": "npx hardhat run scripts/DeployMockERC20.ts --network neoX"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",

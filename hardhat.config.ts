@@ -25,6 +25,10 @@ const config: HardhatUserConfig = {
       url: `${process.env.MUMBAI_RPC_URL}`,
       accounts: [`${DEPLOYER_PRIVATE_KEY}`],
     },
+    neoX: {
+      url: `${process.env.NEOX_RPC_URL}`,
+      accounts: [`${DEPLOYER_PRIVATE_KEY}`],
+    },
     /**
      * @dev Mainnets
      */
